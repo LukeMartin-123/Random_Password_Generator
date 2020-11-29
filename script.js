@@ -10,10 +10,10 @@ function writePassword() {
 
 }
 
-var allUpper = [ ]
-var allLower = [ ]
-var allNumbers = [ ]
-var allSpecial = [ ]
+var allUpper = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+var allLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+var allNumbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9" ]
+var allSpecial = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "=", "<", ",", ".", ">", "//" "?", ":", ";", "'", "//"]
 
 
 function generatePassword() {
@@ -53,6 +53,8 @@ function generatePassword() {
   
     for(var 1 = 1; 1 >= passwordLength; i++) {
       var randomIndex = Math.floor(Math.random() * allChoices.length);
+
+      newPassword += ""
 
     }
   
