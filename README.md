@@ -20,6 +20,9 @@ From there the user is asked a series of questions about what they want their pa
  After the user confirms all their choices for characters, the program runs and generates a completely random password:
 
 <img width="865" alt="Screen Shot 2020-12-01 at 2 07 30 PM" src="https://user-images.githubusercontent.com/72160453/100797486-7181fd00-33df-11eb-8682-100b2b663bbe.png">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4a5935689da7c0fd2c9332aed03b360070cd0f73
 
  This page was created by Luke Martin.
